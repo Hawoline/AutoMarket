@@ -1,0 +1,118 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "anchor": {
+      "description": "Якорь, указывающий на элемент с детальной информацией",
+      "type": "string"
+    },
+    "clientTypes": {
+      "description": "Тип клиента",
+      "items": {
+        "format": "uuid",
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "cost": {
+      "default": 850000,
+      "description": "Значение по умолчанию для стоимости автомобиля",
+      "example": 850000,
+      "format": "double",
+      "maximum": 10000000,
+      "minimum": 1500000,
+      "type": "number"
+    },
+    "initialFee": {
+      "default": 200000,
+      "description": "Значение по умолчанию для суммы первоначального взноса, руб.",
+      "example": 200000,
+      "format": "double",
+      "type": "number"
+    },
+    "kaskoDefaultValue": {
+      "description": "Сумма КАСКО по умолчанию, руб.",
+      "type": "integer"
+    },
+    "language": {
+      "default": "ru-RU",
+      "description": "Язык (ru-RU или en)",
+      "example": "ru-RU",
+      "enum": [
+        "ru-RU",
+        "en"
+      ],
+      "x-nullable": true,
+      "type": "string"
+    },
+    "name": {
+      "default": "Haval",
+      "description": "Наименование калькулятора",
+      "example": "Haval",
+      "type": "string"
+    },
+    "openInNewTab": {
+      "description": "Опция \"открывать описание программы в новой вкладке\"",
+      "type": "boolean"
+    },
+    "programs": {
+      "default": [
+        "d3c2acc2-b91d-4a4e-b8cb-3be3d6d6d383",
+        "f0694a0f-25da-48ce-adeb-6dd9009673cc"
+      ],
+      "example": [
+        "d3c2acc2-b91d-4a4e-b8cb-3be3d6d6d383",
+        "f0694a0f-25da-48ce-adeb-6dd9009673cc"
+      ],
+      "items": {
+        "format": "uuid",
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "specialConditions": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "excludingConditions": {
+            "description": "Массив guid специальных условий",
+            "items": {
+              "format": "uuid",
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "id": {
+            "default": "57ba0183-5988-4137-86a6-3d30a4ed8dc9",
+            "description": "Идентификатор специального условия",
+            "example": "57ba0183-5988-4137-86a6-3d30a4ed8dc9",
+            "format": "uuid",
+            "type": "string"
+          },
+          "isChecked": {
+            "description": "Выбрано по умолчанию",
+            "type": "boolean"
+          },
+          "language": {
+            "default": "ru-RU",
+            "description": "Язык (ru-RU или en)",
+            "example": "ru-RU",
+            "enum": [
+              "ru-RU",
+              "en"
+            ],
+            "x-nullable": true,
+            "type": "string"
+          },
+          "name": {
+            "default": "Страхование жизни",
+            "description": "Наименование специального условия",
+            "example": "Страхование жизни",
+            "type": "string"
+          }
+        },
+        "description": "#/definitions/SpecialCondition"
+      },
+      "type": "array"
+    }
+  }
+}

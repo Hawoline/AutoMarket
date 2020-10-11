@@ -1,0 +1,42 @@
+{
+  "program": {
+    "id": "d3c2acc2-b91d-4a4e-b8cb-3be3d6d6d383",
+    "programName": "Haval",
+    "programUrl": "/personal/avtokredity/legkovye-avtomobili/haval/",
+    "requestUrl": "//anketa.vtb.ru/avtokredit/",
+    "cost": {
+      "min": 1500000,
+      "max": 10000000,
+      "filled": true
+    }
+  },
+  "result": {
+    "payment": 149074,
+    "loanAmount": 7000000,
+    "subsidy": null,
+    "contractRate": 10.1,
+    "lastPayment": null
+  },
+  "ranges": {
+    "cost": {
+      "min": 1000000,
+      "max": 10000000,
+      "filled": true
+    },
+    "initialFee": {
+      "min": 20,
+      "max": 100,
+      "filled": true
+    },
+    "residualPayment": {
+      "min": null,
+      "max": null,
+      "filled": false
+    },
+    "term": {
+      "min": 1,
+      "max": 7,
+      "filled": true
+    }
+  }
+}

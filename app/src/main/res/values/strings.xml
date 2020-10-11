@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AutoMarket</string>
+    <string name="take_a_picture">Take a picture</string>
+    <string name="car_model">Model</string>
+    <string name="transort_type">Car type:</string>
+    <string name="presence">Yes</string>
+    <string name="absent">No</string>
+    <string name="login_login">Войти</string>
+    <string name="login_skip">Пропустить</string>
+    <string name="login_register">Зарегистрироваться</string>
+    <string name="login_email">Email:</string>
+    <string name="login_password">Пароль:</string>
+    <string name="login_email_hint">yourmail@mail.ru</string>
+    <string name="login_password_hint">***********</string>
+    <string name="about_car_get_terms">Получить условия кредитования</string>
+    <string name="about_car_header">ИНФОРМАЦИЯ</string>
+    <string name="state_considered">Заявка на рассмотрении</string>
+    <string name="about_model">Модель:</string>
+    <string name="about_car_type">Тип автомобиля:</string>
+    <string name="about_body_type">Тип кузова:</string>
+    <string name="about_engine_volume">Объём двигателя:</string>
+    <string name="about_engine_power">Мощность двигателя:</string>
+    <string name="about_engine">Двигатель:</string>
+    <string name="about_box">Коробка:</string>
+    <string name="about_drive">Привод:</string>
+    <string name="car_count">Car count:</string>
+    <string name="color_count">Color count:</string>
+    <string name="country_code">Country Code</string>
+    <string name="car_cost">Car cost</string>
+    <string name="initial_fee">Initial Fee</string>
+</resources>
